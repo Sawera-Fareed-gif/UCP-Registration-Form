@@ -22,20 +22,14 @@
         background: #f4f4f4;
         border-radius: 10px;
         box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-        overflow: hidden; /* header ke corners round rakhne ke liye */
+        overflow: hidden; 
     }
-
-    /* ===== HEADER WITH LOGO ===== */
     .header-banner {
         background: linear-gradient(135deg, #1e3c72, #2a5298);
         color: white;
         padding: 25px 20px;
         text-align: center;
     }
-
-    /* Agar aapke paas UCP ki asli logo image ho, to neeche wale
-       .logo-circle div ko hata kar iski jagah:
-       <img src="ucp-logo.png" class="logo-img"> use karein */
     .logo-circle {
         width: 70px;
         height: 70px;
@@ -192,7 +186,7 @@
         font-size: 14px;
         color: #1e3c72;
         font-weight: bold;
-        min-height: 18px; /* jagah reserve rakhta hai taake layout jump na kare */
+        min-height: 18px; 
     }
 </style>
 </head>
@@ -202,12 +196,9 @@
 
     <!-- HEADER + LOGO -->
     <div class="header-banner">
-        <!-- Text-based logo (koi image file zaroori nahi) -->
+       
         <div class="logo-circle">UCP</div>
-
-        <!-- Agar asli logo image use karni ho, upar wali div hata kar
-             ye line use karein (logo file isi folder mein honi chahiye):
-             <img src="ucp-logo.png" alt="UCP Logo" class="logo-img"> -->
+             <img src="ucp-logo.png" alt="UCP Logo" class="logo-img"> 
 
         <h1>UCP Registration Form</h1>
         <p>Bachelor Programs Admission 2026</p>
@@ -283,12 +274,10 @@
 
 <script>
     function showSelectedDegree() {
-        // Dropdown ka current selected element nikal rahe hain
+       
         const select = document.getElementById("domain");
         const displayText = document.getElementById("selectedDegreeText");
 
-        // select.value = value attribute wali value (jaise "BS IT")
-        // select.options[select.selectedIndex].text = jo user ko dikhta hai (jaise "Information Technology")
         const selectedLabel = select.options[select.selectedIndex].text;
 
         if (select.value === "") {
