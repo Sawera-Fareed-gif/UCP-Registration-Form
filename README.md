@@ -32,7 +32,7 @@ This project is a **single-page admission registration form** for UCP's Bachelor
 
 ## 🔗 Live Demo
 
-**[//sawera-fareed-gif.github.io/UCP-Registration-Form/](#)**  
+**[https://sawera-fareed-gif.github.io/UCP-Registration-Form/](#)**  
 ---
 
 ## ✨ Features
