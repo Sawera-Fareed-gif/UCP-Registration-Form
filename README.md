@@ -1,4 +1,3 @@
-
 # 🎓 UCP Bachelor Programs Registration Form
 
 A clean, responsive registration form built for **University of Central Punjab (UCP)** Bachelor Programs admissions — designed and developed as a front-end web development learning project.
@@ -34,7 +33,7 @@ This project is a **single-page admission registration form** for UCP's Bachelor
 ## 🔗 Live Demo
 
 **[View Live Form](#)**  
-*(Replace the `#` above with your GitHub Pages link once available, e.g. `https://za3060873-gif.github.io/UCP-Registration-Form/`)*
+*(Replace the `#` above with your GitHub Pages link once available, e.g. `https://Sawera-Fareed-gif.github.io/ucp-registration-form/`)*
 
 ---
 
@@ -62,7 +61,7 @@ This project is a **single-page admission registration form** for UCP's Bachelor
 ## 📂 Project Structure
 
 ```
-UCP-Registration-Form/
+ucp-registration-form/
 ├── index.html      # Main file — contains HTML, CSS, and JavaScript combined
 └── README.md       # Project documentation
 ```
@@ -75,7 +74,7 @@ No installation or build steps required — this is a static front-end project.
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/za3060873-gif/UCP-Registration-Form.git
+   git clone https://github.com/Sawera-Fareed-gif/ucp-registration-form.git
    ```
 2. **Open the file**
    Simply open `index.html` in any modern web browser (Chrome, Edge, Firefox).
@@ -115,3 +114,4 @@ Software Engineering Student (SE28) — University of Central Punjab (UCP)
 ## 📄 License
 
 This project is created for **educational purposes** as part of a personal front-end development learning journey.
+
